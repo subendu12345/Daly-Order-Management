@@ -2,8 +2,6 @@ package ordermanagement.com.example.mahaprabhu_sweet_center.services;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.stream.Collectors;
 
 import ordermanagement.com.example.mahaprabhu_sweet_center.model.DTO.OrderItemDTO;
 import ordermanagement.com.example.mahaprabhu_sweet_center.model.MyOrder;
@@ -13,7 +11,6 @@ import ordermanagement.com.example.mahaprabhu_sweet_center.repo.IOrderRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.PathVariable;
 
 @Service
 public class OrderItemService {

@@ -21,6 +21,7 @@ public class OrderController {
 
     @GetMapping("/get-all-orders")
     public List<MyOrder> getAllOrders(){
+        System.out.println("I am call get all");
         return ordServ.getAllOrders();
     }
 
